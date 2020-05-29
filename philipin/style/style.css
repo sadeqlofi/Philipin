@@ -1,0 +1,82 @@
+*{margin: 0;
+padding: 0;
+font-family: sans-serif;
+overflow: hidden;
+}
+
+
+.all{
+	width: 100vw;
+	height: 100vh;
+	background: #42455a;
+}
+.meno ul{
+	display: inline-flex;
+	margin: 50px;
+
+}
+.meno ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+}
+.logo img{
+	width: 30px;
+	margin-top: -7px;
+	margin-right: 48px;
+}
+.pag{
+	color: #19dafa !important;
+}
+.sin{
+	top: 40px;
+	right: 80px;
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	border:2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, #fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box , border-box;
+}
+.sin span{
+	display: block;
+	padding: 8px 22px;
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left: 130px;
+	position: absolute;
+	color: #fff;
+}
+.app{
+	width: 50%;
+	float: left;
+}
+.app h1{
+	font-size:43px;
+	width: 640px;
+	position: relative;
+	margin: 40px; 
+}
+.app p{
+	font-size: 15px;
+	width: 650px;
+	margin: 30px 0 30px 40px;
+	line-height: 20px;
+	color: #919191;
+}
+.app-bild{
+	width: 40%;
+	float: left;
+}
+.app-bild img{
+	width: 100%;
+
+	padding-left: 50%;
+
+}
